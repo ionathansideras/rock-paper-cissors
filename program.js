@@ -111,10 +111,7 @@ document.addEventListener('DOMContentLoaded', function(){
             game();
             update();
             winner();
-
-            console.log("myschoice",player)
-            console.log("randomV",randomV)
-            console.log("round winner",round)
+           
         };
     };
 });
