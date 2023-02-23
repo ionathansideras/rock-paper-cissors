@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function(){
         if(playerScore == 5 || computerScore == 5){
 
             if(playerScore == 5){
-                document.querySelector('h3').innerHTML = 'You Win!';
+                document.querySelector('h3').innerHTML = 'You Won!';
                 resetGame()
             }
 
