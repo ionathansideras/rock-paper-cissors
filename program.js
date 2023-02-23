@@ -42,13 +42,13 @@ document.addEventListener('DOMContentLoaded', function(){
         else if(computerSelection == 'Rock' && playerinput == 'Rock'){
             return "Tie";
         }
-        else if(computerSelection == 'Cissors' && playerinput == 'Cissors'){
+        else if(computerSelection == 'Scissors' && playerinput == 'Scissors'){
             return "Tie";
         }
-        else if(computerSelection == 'Cissors' && playerinput == 'Rock'){
+        else if(computerSelection == 'Scissors' && playerinput == 'Rock'){
             return "Player +1";
         }
-        else if(computerSelection == 'Rock' && playerinput == 'Cissors'){
+        else if(computerSelection == 'Rock' && playerinput == 'Scissors'){
             return "Computer +1";
         }
         else if(computerSelection == 'Rock' && playerinput == 'Paper'){
@@ -57,10 +57,10 @@ document.addEventListener('DOMContentLoaded', function(){
         else if(computerSelection == 'Paper' && playerinput == 'Rock'){
             return "Computer +1";
         }
-        else if(computerSelection == 'Paper' && playerinput == 'Cissors'){
+        else if(computerSelection == 'Paper' && playerinput == 'Scissors'){
             return "Player +1";
         }
-        else if(computerSelection == 'Cissors' && playerinput == 'Paper'){
+        else if(computerSelection == 'Scissors' && playerinput == 'Paper'){
             return "Computer +1";
         };
     };
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function(){
             random = 'Paper'
         }
         else{
-            random = 'Cissors'
+            random = 'Scissors'
         };
         
         return random;
